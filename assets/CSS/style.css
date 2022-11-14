@@ -18,9 +18,17 @@ header {
     background-color: var(--darkgray);
     display: flex;
     justify-content: space-between;
-    color: var(--tealish)
 }
 
+header h1 {
+    background-color: var(--tealish);
+    color: var(--darkgray);
+}
+
+ul {
+    position: absolute;
+    right: 100px;
+}
 
 li {
     display: inline-block;
@@ -38,11 +46,18 @@ main div h2 {
     position: absolute;
 }
 
-.hero {
+.hero-img {
     min-width: 100%;
     height: 150px;
     object-fit: cover;
     position: relative;
-    display:inline-block;
+    display: inline-block;
 }
 
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
